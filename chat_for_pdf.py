@@ -8,6 +8,9 @@ from langchain.schema import HumanMessage
 from langchain.text_splitter import SpacyTextSplitter
 from langchain.vectorstores import Chroma
 
+def sample():
+    pass
+
 embeddings = OpenAIEmbeddings(
     model="text-embedding-ada-002"
 )
